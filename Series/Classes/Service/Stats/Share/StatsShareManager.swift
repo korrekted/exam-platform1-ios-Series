@@ -16,7 +16,7 @@ final class StatsShareManager {
 // MARK: Public
 extension StatsShareManager {
     func sharedContainerURL() -> URL? {
-        FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.series.widget")
+        FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.series7.widget")
     }
     
     @discardableResult
